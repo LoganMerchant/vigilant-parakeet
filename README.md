@@ -21,11 +21,13 @@ To install the necessary components, you will need to clone this repository onto
 
 
 ## Usage
-In order to use this project, you must first create the database. The easiest way for me is to log into the MySQL shell and typing `source db/schema.sql` (make sure youre in the root directory for the cloned resository). After creating the database, you can seed it with data by running `npm run seed` in your regular command line. 
+In order to use this project, you must first create the database. The easiest way for me is to log into the MySQL shell and typing `source db/schema.sql` (make sure you're in the root directory for the cloned resository). After creating the database, you can seed it with data by running `npm run seed` in your regular command line. 
 <br>
-In order to connect to the database, you will need to create a `.env` file with `DB_NAME=ecommerce_db`, `DB_USER=<your-mysql-username>`, and `DB_PW=<your-mysql-password>`. Add this file to a `.gitignore` if you plan to publish it anywhere. Now you can enter `npm run start` in your command line to connect to the database, and start the server.
 <br>
-You are now free to perform the various CRUD methods on the database in your browser, or in Insomnia, Postman, etc.
+In order to connect to the database, you will need to create a `.env` file with `DB_NAME=ecommerce_db`, `DB_USER=<your-mysql-username>`, and `DB_PW=<your-mysql-password>`. Add this file to a `.gitignore` if you plan to publish it anywhere. Now you can enter `npm run start` in your command line to perform the various CRUD methods on the database in your browser, Insomnia, Postman, etc.
+<br>
+<br>
+If you'd like a walkthrough, you can click [here](https://drive.google.com/file/d/16Q4jNZMk5KsLE87oLUpjAkrrm-f9VrBm/view)
 
 
 ## How to Contribute
